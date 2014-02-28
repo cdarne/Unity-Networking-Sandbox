@@ -10,6 +10,8 @@ public class NetworkServer : MonoBehaviour
     public bool useNat = false;
     public string password = "";
 
+    public Transform playerPrefab;
+
     void Start()
     {
         Network.logLevel = logLevel;
